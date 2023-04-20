@@ -76,6 +76,7 @@ header ul li a {
 
 header ul li a:hover {
   color: #A8A8B3;
+<<<<<<< HEAD
 }
 
 footer {
@@ -129,4 +130,6 @@ footer .team ul {
 
 footer .team ul li {
   margin-bottom: 25px;
+=======
+>>>>>>> 1b41cf35d2f347199d2a3aab89c96a2c4a591ad3
 }
