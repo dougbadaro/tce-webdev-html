@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #121214;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
+button {
+  height: 40px;
+  width: 130px;
+
+  font-size: 14px;
+  font-family: 'JetBrains Mono Thin';
+
+  color: #fff;
+  background-color: #6F38C1;
+
+  border-radius: 5px;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #29292E;
+  padding: 0 188px 0 188px;
+}
+
+header img {
+  height: 100px;
+}
+
+header ul {
+  display: flex;
+
+  list-style: none;
+}
+
+header ul li {
+  margin-right: 45px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+main {}
+
+main .section-banner {
+  height: 700px;
+
+  align-items: center;
+
+  background: linear-gradient(180deg, rgba(18, 18, 20, 0.2) 0%, rgba(53, 39, 78, 0.2) 100%);
+}
+
+main .section-banner .content-banner {
+  display: flex;
+  align-items: center;
+}
+
+main .section-banner .content-banner .banner-text {
+  width: 50%;
+
+  font-family: 'JetBrains Mono';
+
+  padding-left: 167px;
+  align-items: center;
+}
+
+main .section-banner .content-banner .banner-text h1 {
+  font-size: 42px;
+  font-weight: 800;
+
+  line-height: 55px;
+}
+
+main .section-banner .content-banner .banner-text p {
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 21px;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+main .section-banner .content-banner .banner-text button {
+  height: 40px;
+  width: 130px;
+
+  font-size: 14px;
+  font-family: 'JetBrains Mono Thin';
+
+  color: #fff;
+  background-color: #6F38C1;
+
+  border-radius: 5px;
+}
+
+main .section-banner .content-banner .banner-image {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+main .section-banner .content-banner .banner-image img {
+  height: 600px;
+}
+
+main .section-workspace {
+  top: -20;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px 0 200px;
+}
+
+main .section-workspace .boxes {
+  width: 300px;
+
+  text-align: center;
+
+  font-size: 12px;
+
+  line-height: 14px;
+
+  padding: 50px 25px;
+
+  background-color: #121214;
+
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+main .section-workspace .boxes img {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+main .section-project {
+  padding: 180px 200px;
+}
+
+main .section-project h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+main .section-project .content-project {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+main .section-project .content-project .text-box {
+  width: 50%;
+
+  align-items: center;
+}
+
+main .section-project .content-project .text-box h1 {
+  font-size: 43px;
+  font-weight: 900;
+
+  line-height: 50px;
+}
+
+main .section-project .content-project .text-box p {
+  width: 450px;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-top: 30px;
+}
+
+main .section-project .content-project .cards {
+  height: 320px;
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+main .section-project .content-project .cards .card {
+  background-color: #0A0A0B;
+
+  padding: 45px 45px;
+
+  text-align: center;
+
+  border: 1px solid #29292E;
+  border-radius: 10px;
+}
+
+main .section-project .content-project .cards .card img {
+  height: 140px;
+}
+
+main .section-project .content-project .cards .card h3 {
+  font-size: 30px;
+  font-weight: 900;
+
+  margin-top: 30px;
+}
+
+main .section-aboutus {
+  padding: 180px 200px;
+
+  background-color: #0A0A0B;
+}
+
+main .section-aboutus h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+main .section-aboutus .content-aboutus {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-top: -20px;
+}
+
+main .section-aboutus .content-aboutus .text-box {
+  width: 50%;
+
+  align-items: center;
+}
+
+main .section-aboutus .content-aboutus .text-box h1 {
+  font-size: 43px;
+  font-weight: 900;
+
+  line-height: 50px;
+}
+
+main .section-aboutus .content-aboutus .text-box p {
+  width: 450px;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .section-aboutus .content-aboutus .project-image img {
+  height: 600px;
+}
+
+main .section-references {
+  padding: 180px 200px;
+}
+
+main .section-references h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+main .section-references .content-references {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-top: -20px;
+}
+
+main .section-references .content-references .text-box {
+  width: 50%;
+
+  align-items: center;
+}
+
+main .section-references .content-references .text-box h1 {
+  font-size: 43px;
+  font-weight: 900;
+
+  line-height: 50px;
+}
+
+main .section-references .content-references .text-box p {
+  width: 450px;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .section-references .content-references .project-image img {
+  height: 600px;
+}
