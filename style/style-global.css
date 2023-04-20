@@ -76,4 +76,60 @@ header ul li a {
 
 header ul li a:hover {
   color: #A8A8B3;
+<<<<<<< HEAD
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0A0B;
+  padding: 60px 500px 60px 300px;
+
+}
+
+footer .company {
+  text-align: center;
+}
+
+footer .company img {
+  height: 220px;
+}
+
+footer .company p {
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #A8A8B3;
+}
+
+footer .topics a {
+  text-decoration: none;
+
+  color: #A8A8B3;
+
+  transition: 0.2s;
+}
+
+footer .topics a:hover {
+  color: #d9d9d9;
+}
+
+footer .topics ul {
+  list-style: none;
+}
+
+footer .topics ul li {
+  margin-bottom: 25px;
+}
+
+footer .team ul {
+  list-style: none;
+
+  color: #A8A8B3;
+}
+
+footer .team ul li {
+  margin-bottom: 25px;
+=======
+>>>>>>> 1b41cf35d2f347199d2a3aab89c96a2c4a591ad3
 }
