@@ -71,6 +71,12 @@ main .section-workspace .boxes {
 
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+  transition: transform .3s;
+}
+
+main .section-workspace .boxes:hover {
+  transform: scale(1.02);
 }
 
 main .section-workspace .boxes img {
@@ -135,6 +141,12 @@ main .section-project .content-project .cards .card {
   border-radius: 10px;
 
   margin-left: 80px;
+
+  transition: transform .3s;
+}
+
+main .section-project .content-project .cards .card:hover {
+  transform: scale(1.05);
 }
 
 main .section-project .content-project .cards .card:first-child {
