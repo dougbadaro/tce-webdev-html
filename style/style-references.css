@@ -1,0 +1,97 @@
+main .title-page {
+  padding: 79px 0px 0px 97px;
+}
+
+main .title-page .content-title .title-text h1 {
+  padding-top: 19px;
+  font-size: 60px;
+}
+
+main .title-page .content-title .title-text p {
+  padding-top: 19px;
+  font-size: 18px;
+}
+
+main .title-page .content-title .navigators-button{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#buttonNavigator{
+  width: 500px;
+  height: 50px;
+}
+
+
+main .title-page .content-title .title-menu {
+  text-align: center;
+  font-size: 30px;
+  margin: 86px 280px 30px 180px;
+}
+
+main .table-tags .table {
+  border: 8px solid #6033a4;
+  border-radius: 20px;
+  margin: 30px 280px 100px 280px;
+}
+
+main .table-tags .table .tags-title {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+main .table-tags .table th {
+  width: 100%;
+  padding: 30px 40px 30px 40px;
+}
+
+main .table-tags .table td {
+  padding: 30px 40px 30px 40px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+main .table-tags .table .tag {
+  text-align: left;
+  padding-left: 130px;
+}
+
+main .table-tags .table tr {
+  border-radius: 20px;
+}
+
+table {
+  overflow: hidden;
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+main .table-tags .table thead {
+  background-color: #0a0a0b;
+  color: white;
+}
+
+main .table-tags .table .bc-black {
+  background-color: #121214;
+}
+
+main .table-tags .table .bc-purple {
+  background-color: #18151f;
+}
+
+main .table-tags .table .icons {
+  overflow: visible;
+  transition: transform 0.3s;
+}
+
+main .table-tags .table .icons img {
+  width: 100px;
+  height: 100px;
+}
+
+main .table-tags .table .icons:hover {
+  transform: scale(1.1);
+}
