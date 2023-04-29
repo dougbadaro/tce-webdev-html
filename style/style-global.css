@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
+
 * {
   margin: 0;
   border: 0;
@@ -28,7 +31,8 @@ button {
   cursor: pointer;
 
   font-size: 14px;
-  font-family: 'JetBrains Mono Thin';
+  font-family: 'JetBrains Mono';
+  font-weight: 200;
 
   color: #fff;
   background-color: #6F38C1;
