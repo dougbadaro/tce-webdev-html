@@ -76,6 +76,12 @@ main .table-tags .table .tag a,
 main .table-tags .table .tag a:link {
   text-decoration: none;
   color: #fff;
+
+  transition: .3s;
+}
+
+main .table-tags .table .tag a:hover {
+  color: #6033a4;
 }
 
 main .table-tags .table .description {
@@ -120,12 +126,12 @@ main .table-tags .table .icons:hover {
   transform: scale(1.1);
 }
 
-.destaque {
-  color: #6117d1;
+/* .destaque {
+  color: #6033a4;
   transition: color 1.2s ease;
 }
 
 .remover {
   color: #fff !important;
   transition: color 0.5s ease;
-}
+} */
