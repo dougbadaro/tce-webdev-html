@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 main .title-page {
   height: 260px;
   padding: 79px 0px 0px 97px;
@@ -12,6 +15,18 @@ main .title-page .content-title .title-menu {
   font-size: 30px;
   margin: 86px 280px 0 180px;
 }
+
+main .title-page .content-title .title-menu .menu-options a,
+main .title-page .content-title .title-menu .menu-options a:link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main .title-page .content-title .title-menu .menu-options a:hover{
+  color: #6033a4;
+  transition: color 0.3s ease;
+}
+
 
 main .table-tags .table {
   border: 8px solid #6033a4;
@@ -37,11 +52,6 @@ main .table-tags .table td {
   line-height: 44px;
 }
 
-main .table-tags .table .tag {
-  text-align: left;
-  padding-left: 130px;
-}
-
 main .table-tags .table tr {
   border-radius: 20px;
 }
@@ -65,15 +75,25 @@ main .table-tags .table .bc-purple {
   background-color: #18151f;
 }
 
-main .table-tags .table .icons {
+main .table-tags .table .icons-nav {
   overflow: visible;
   transition: transform 0.3s;
 }
 
-main .table-tags .table .icons img {
+main .table-tags .table .icons-nav img {
   width: 100px;
   height: 100px;
 }
-main .table-tags .table .icons:hover {
+main .table-tags .table .icons-nav:hover {
   transform: scale(1.1);
+}
+
+.destaque {
+  color: #6117d1;
+  transition: color 1.2s ease;
+}
+
+.remover {
+  color: #fff !important;
+  transition: color 0.5s ease;
 }
