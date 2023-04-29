@@ -4,12 +4,12 @@ main .title-page {
 
 main .title-page .content-title .title-text h1 {
   padding-top: 19px;
-  font-size: 60px;
+  font-size: 43px;
 }
 
 main .title-page .content-title .title-text p {
   padding-top: 19px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 main .title-page .content-title .navigators-button {
@@ -27,8 +27,19 @@ main .title-page .content-title .navigators-button {
 
 main .title-page .content-title .title-menu {
   text-align: center;
-  font-size: 30px;
-  margin: 50px 280px 30px 180px;
+  font-size: 26px;
+  margin: 86px 280px 0 180px;
+}
+
+main .title-page .content-title .title-menu .menu-options a,
+main .title-page .content-title .title-menu .menu-options a:link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main .title-page .content-title .title-menu .menu-options a:hover {
+  color: #6033a4;
+  transition: color 0.3s ease;
 }
 
 main .table-tags .table {
@@ -39,11 +50,10 @@ main .table-tags .table {
 
 main .table-tags .table .tags-title {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 main .table-tags .table th {
-  width: 100%;
   padding: 30px 40px 30px 40px;
 }
 
@@ -51,13 +61,26 @@ main .table-tags .table td {
   padding: 30px 40px 30px 40px;
   text-align: center;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 38px;
 }
 
 main .table-tags .table .tag {
-  text-align: left;
-  padding-left: 130px;
+  text-align: center;
+  width: 40%;
+  line-height: 44px;
+
+  width: 40%;
+}
+
+main .table-tags .table .tag a,
+main .table-tags .table .tag a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+main .table-tags .table .description {
+  width: 60%;
+  font-size: 16px;
 }
 
 main .table-tags .table tr {
@@ -95,4 +118,14 @@ main .table-tags .table .icons img {
 
 main .table-tags .table .icons:hover {
   transform: scale(1.1);
+}
+
+.destaque {
+  color: #6117d1;
+  transition: color 1.2s ease;
+}
+
+.remover {
+  color: #fff !important;
+  transition: color 0.5s ease;
 }
