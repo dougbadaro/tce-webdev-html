@@ -1,0 +1,58 @@
+main .title-page {
+  padding: 79px 0px 0px 97px;
+}
+
+main .title-page .title-text h1 {
+  padding-top: 19px;
+  font-size: 43px;
+}
+
+main .title-page .title-text p {
+  padding-top: 19px;
+  font-size: 16px;
+  width: 70%;
+}
+
+main .content-team {
+  padding: 60px 97px 50px 97px;
+}
+
+main .content-team h1 {
+  font-size: 36px;
+}
+
+main .content-team .peoples {
+  padding: 0px 100px 0px 100px;
+}
+
+main .content-team .peoples .group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+main .content-team .peoples .group .people h4 {
+  font-size: 28px;
+}
+
+main .content-team .peoples .group .people .bar {
+  height: 0px;
+  width: 346px;
+  border: 2px solid #8C5BE5;
+
+  margin: 10px 0px;
+}
+
+main .content-team .peoples .group .people img {
+  height: 350px;
+}
+
+main .content-team .peoples .group .people div {
+  display: flex;
+}
+
+main .content-team .peoples .group .people div p {
+  padding-left: 42px;
+  padding-right: 100px;
+  width: 350px;
+}
