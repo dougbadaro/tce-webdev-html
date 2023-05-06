@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
+  <title>Referências - Web Dev</title>
+
+  <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../style/style-global.css">
+  <link rel="stylesheet" href="../../style/style-tags.css">
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html">
+      <img src="../../image/logo/logotce.png" alt="Logo TCE - Web Dev">
+    </a>
+    <ul>
+      <li><a href="../about.html">Sobre nós</a></li>
+      <li><a href="../references.html">Referências</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="title-page">
+      <h1>Tag &lt;form&gt;</h1>
+      <div class="buttons">
+        <a href="../tags/footer.html"><button>Anterior</button></a>
+        <a href="../tags/hr.html"><button>Próximo</button></a>
+      </div>
+    </div>
+    <div class="definition">
+      <h3>Definição e uso</h3>
+      <p>A tag &lt;form&gt; é usada para criar um formulário HTML para entrada do usuário.</p>
+      <p>O elemento &lt;form&gt; pode conter um ou mais dos seguintes elementos de formulário:</p>
+      <ul>
+        <li>&lt;input&gt;</li>
+        <li>&lt;textarea&gt;</li>
+        <li>&lt;button&gt;</li>
+        <li>&lt;select&gt;</li>
+        <li>&lt;option&gt;</li>
+        <li>&lt;optgroup&gt;</li>
+        <li>&lt;fieldset&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;output&gt;</li>
+      </ul>
+    </div>
+    <div class="example">
+      <h3>Exemplo</h3>
+      <div class="code">
+        <p>&lt;<span class="tag">form</span> <span class="tag-attribute">action</span>=</span><span
+            class="string">"/action_page.php"</span>
+          <span class="tag-attribute">method</span><span class="equal">=</span><span class="string">"get"</span>&gt;<br>
+        </p>
+        <div class="in-code">
+          <p>
+            &lt;<span class="tag">label</span> <span class="tag-attribute">for</span><span class="equal">=</span><span
+              class="string">"fname"</span>>First name:&lt;/<span class="tag">label</span>&gt;<br>
+            &lt;<span class="tag">input</span> <span class="tag-attribute">type</span><span class="equal">=</span><span
+              class="string">"text"</span> <span class="tag-attribute">id</span><span class="equal">=</span><span
+              class="string">"fname"</span> <span class="tag-attribute">name</span><span class="equal">=</span><span
+              class="string">"fname"</span>&gt;<br>
+            &lt;<span class="tag">label</span> <span class="tag-attribute">for</span><span class="equal">=</span><span
+              class="string">"lname"</span>>Last name:&lt;/<span class="tag">label</span>&gt;<br>
+            &lt;<span class="tag">input</span> <span class="tag-attribute">type</span><span class="equal">=</span><span
+              class="string">"text"</span> <span class="tag-attribute">id</span><span class="equal">=</span><span
+              class="string">"lname"</span> <span class="tag-attribute">name</span><span class="equal">=</span><span
+              class="string">"lname"</span>&gt;<br>
+            &lt;<span class="tag">input</span> <span class="tag-attribute">type</span><span class="equal">=</span><span
+              class="string">"submit"</span> <span class="tag-attribute">value</span><span class="equal">=</span><span
+              class="string">"Submit"</span>&gt;<br>
+          </p>
+        </div>
+        <p>&lt;/<span class="tag">form</span>&gt;</p>
+      </div>
+    </div>
+    <div class="attribute">
+      <h3>Atributos</h3>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th class="tags-title" id="first">Atributo</th>
+              <th class="tags-title" id="secondary">Value</th>
+              <th class="tags-title" id="third">Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bc-purple">
+              <td>accept-charset</td>
+              <td>character_set</td>
+              <td>Especifica as codificações de caracteres que devem ser usadas para o envio do formulário</td>
+            </tr>
+            <tr class="bc-black">
+              <td>action</td>
+              <td>URL</td>
+              <td>Especifica para onde enviar os dados do formulário quando um formulário é enviado</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>autocomplete</td>
+              <td>on <br>
+                off</td>
+              <td>Especifica se um formulário deve ter o preenchimento automático ativado ou desativado</td>
+            </tr>
+            <tr class="bc-black">
+              <td>enctype</td>
+              <td>application/x-www-form-urlencoded <br>
+                multipart/form-data <br>
+                text/plain</td>
+              <td>Especifica como os dados do formulário devem ser codificados ao enviá-los ao servidor (somente para
+                method="post")</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>method</td>
+              <td>get <br>
+                post</td>
+              <td>Especifica o método HTTP a ser usado ao enviar dados de formulário</td>
+            </tr>
+            <tr class="bc-black">
+              <td>name</td>
+              <td>text</td>
+              <td>Especifica o nome de um formulário</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>novalidate</td>
+              <td>novalidate</td>
+              <td>Especifica que o formulário não deve ser validado quando enviado</td>
+            </tr>
+            <tr class="bc-black">
+              <td>rel</td>
+              <td>external <br>
+                help <br>
+                license <br>
+                next <br>
+                nofollow <br>
+                noopener <br>
+                noreferrer <br>
+                opener <br>
+                prev <br>
+                search<br>
+                post</td>
+              <td>Especifica a relação entre um recurso vinculado e o documento atual</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>target</td>
+              <td>_blank <br>
+                _self <br>
+                _parent <br>
+                _top</td>
+              <td>Especifica onde exibir a resposta recebida após o envio do formulário</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="company">
+      <img src="../../image/logo/logotce.png" alt="">
+      <p>&copy; IFNMG - 2023</p>
+    </div>
+    <div class="topics">
+      <ul>
+        <li><a href="../about.html">Sobre nós</a></li>
+        <li><a href="../references.html">Referências</a></li>
+      </ul>
+    </div>
+    <div class="team">
+      <ul>
+        <li>Equipe</li>
+        <li>Davi Rodrigues</li>
+        <li>Douglas Badaró</li>
+        <li>Edson Júnior</li>
+        <li>George Lucas</li>
+        <li>Ítalo Augusto</li>
+        <li>Maria Theresa</li>
+        <li>Wanderson Rodrigues</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
