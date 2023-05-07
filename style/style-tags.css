@@ -9,10 +9,13 @@ main .title-page h1 {
 
 main .title-page .buttons {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-main .title-page .buttons button:first-child {
-  margin-right: 30px;
+main .title-page .buttons button {
+  gap: 30px;
 }
 
 main .title-page .buttons button {
@@ -56,6 +59,10 @@ main .example .code {
   border-left: 5px solid #6F38C1;
 
   padding: 40px;
+}
+
+main .example .code p {
+  font-family: "JetBrains Mono";
 }
 
 main .example .code p .tag {
