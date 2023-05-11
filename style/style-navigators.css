@@ -1,6 +1,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 main .title-page {
   height: 260px;
   padding: 79px 0px 0px 97px;
@@ -38,7 +39,7 @@ main .title-page .content-title .title-menu .menu-options a:hover{
 main .table-tags .table {
   border: 8px solid #6033a4;
   border-radius: 20px;
-  margin: 0 280px 100px 280px;
+  margin: 30px 280px 100px 280px;
 }
 
 main .table-tags .table .tags-title { 
@@ -104,14 +105,4 @@ main .table-tags .table .table-js a:link{
 main .table-tags .table .table-js a:hover{
   color: #6033a4;
 
-}
-
-.destaque {
-  color: #6033a4;
-  transition: color 1.2s ease;
-}
-
-.remover {
-  color: #fff !important;
-  transition: color 0.5s ease;
 }
