@@ -6,17 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
-  <title>Referências - Web Dev</title>
+  <title>TCE - Web Dev</title>
 
   <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
   <link rel="stylesheet" href="../../style/style-global.css">
   <link rel="stylesheet" href="../../style/style-tags.css">
+
+  <style>
+    .example {
+      margin-bottom: 50px;
+    }
+  </style>
 </head>
-<style>
-  .example {
-    margin-bottom: 50px;
-  }
-</style>
 
 <body>
   <header>
@@ -31,30 +32,28 @@
 
   <main>
     <div class="title-page">
-      <h1>Tag &lt;abbr&gt;</h1>
+      <h1>Tag &lt;form&gt;</h1>
       <div class="buttons">
-        <button><a href="../tags/doctype.html">Anterior</a></button>
-        <button></button><a href="../tags/address.html">Próximo</a></button>
+        <button><a href="../tags/dfn.html">Anterior</a></button>
+        <button><a href="../tags/figcaption.html">Próximo</a></button>
       </div>
     </div>
     <div class="definition">
       <h3>Definição e uso</h3>
-      <p>A tag &lt;abbr&gt; define uma abreviação ou um acrônimo, como "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p>
-
-      <p>Dica: Use o atributo de título global para mostrar a descrição da abreviação/acrônimo ao passar o mouse sobre o
-        elemento.</p>
+      <p>A tag &lt;em&gt; é usada para definir o texto enfatizado. O conteúdo interno geralmente é exibido em itálico.
+      </p>
+      <p>Um leitor de tela pronunciará as palavras em &lt;em&gt; com ênfase, usando tonicidade verbal.</p>
     </div>
     <div class="example">
       <h3>Exemplo</h3>
-      <p style="padding-left: 15px;">&lt;<span>abbr</span>&gt; também pode ser usado com &lt;dfn&gt; para definir uma
-        abreviação:</p>
       <div class="code">
         <p>
-          <span>&lt;<span class="tag">p</span>&gt;&lt;<span class="tag">dfn</span>&gt;&lt;<span class="tag">abbr</span>
-            <span class="tag-attribute">title</span>=<span class="string">"Folhas de estilo em
-              cascata"</span>&gt;CSS&lt;/<span class="tag">abbr</span>&gt;</span><br>
-          <span>&lt;/<span class="tag">dfn</span>&gt;é uma linguagem que descreve o estilo de um documento
-            HTML.&lt;/<span class="tag">p</span>&gt;</span>
+          &lt;<span class="tag">p</span>&gt;You &lt;<span class="tag">em</span>&gt;have&lt;/<span
+            class="tag">em</span>&gt; to hurry up!&lt;/<span class="tag">p</span>&gt;<br>
+        </p>
+        <p>
+          &lt;<span class="tag">p</span>&gt;We &lt;<span class="tag">em</span>&gt;cannot&lt;/<span
+            class="tag">em</span>&gt; live like this.&lt;/<span class="tag">p</span>&gt;<br>
         </p>
       </div>
     </div>
