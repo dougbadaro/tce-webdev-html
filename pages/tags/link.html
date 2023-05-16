@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
+  <title>Referências - Web Dev</title>
+
+  <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../style/style-global.css">
+  <link rel="stylesheet" href="../../style/style-tags.css">
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html">
+      <img src="../../image/logo/logotce.png" alt="Logo TCE - Web Dev">
+    </a>
+    <ul>
+      <li><a href="../about.html">Sobre nós</a></li>
+      <li><a href="../references.html">Referências</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="title-page">
+      <h1>Tag &lt;link&gt;</h1>
+      <div class="buttons">
+        <a href="../tags/li.html"><button>Anterior</button></a>
+        <a href="../tags/optgroup.html"><button>Próximo</button></a>
+      </div>
+    </div>
+    <div class="definition">
+      <h3>Definição e uso</h3>
+      <p>A tag &lt;link&gt; define o relacionamento entre o documento atual e um recurso externo.</p>
+      <p>A tag &lt;link&gt; é usada com mais frequência para vincular a folhas de estilo externas ou para adicionar um
+        favicon ao seu site.</p>
+      <p>O elemento &lt;link&gt; é um elemento vazio, contém apenas atributos.</p>
+    </div>
+    <div class="example">
+      <h3>Exemplo</h3>
+      <div class="code">
+        <p>&lt;<span class="tag">head</span>&gt;<br>
+        </p>
+        <div class="in-code">
+          <p>
+            &lt;<span class="tag">link</span> <span class="tag-attribute">rel</span><span class="equal">=</span><span
+              class="string">"stylesheet"</span> <span class="tag-attribute">href</span><span
+              class="equal">=</span><span class="string">"styles.css"</span>&gt;
+          </p>
+        </div>
+        <p>&lt;/<span class="tag">head</span>&gt;</p>
+      </div>
+    </div>
+    <div class="attribute">
+      <h3>Atributos</h3>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th class="tags-title" id="first">Atributo</th>
+              <th class="tags-title" id="secondary">Value</th>
+              <th class="tags-title" id="third">Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bc-purple">
+              <td>crossorigin</td>
+              <td>anonymous <br>
+                use-credentials</td>
+              <td>Especifica como o elemento lida com solicitações de origem cruzada</td>
+            </tr>
+            <tr class="bc-black">
+              <td>href</td>
+              <td>URL</td>
+              <td>Especifica a localização do documento vinculado</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>hreflang</td>
+              <td>language_code</td>
+              <td>Especifica o idioma do texto no documento vinculado</td>
+            </tr>
+            <tr class="bc-black">
+              <td>enctype</td>
+              <td>application/x-www-form-urlencoded <br>
+                multipart/form-data <br>
+                text/plain</td>
+              <td>Especifica como os dados do formulário devem ser codificados ao enviá-los ao servidor (somente para
+                method="post")</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>media</td>
+              <td>media_query</td>
+              <td>Especifica em qual dispositivo o documento vinculado será exibido</td>
+            </tr>
+            <tr class="bc-black">
+              <td>referrerpolicy</td>
+              <td>no-referrer <br>
+                no-referrer-when-downgrade<br>
+                origin<br>
+                origin-when-cross-origin<br>
+                unsafe-url</td>
+              <td>Especifica qual referenciador usar ao buscar o recurso</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>rel</td>
+              <td>alternate<br>
+                author<br>
+                dns-prefetch<br>
+                help<br>
+                icon<br>
+                license<br>
+                next<br>
+                pingback<br>
+                preconnect<br>
+                prefetch<br>
+                preload<br>
+                prerender<br>
+                prev<br>
+                search<br>
+                stylesheet</td>
+              <td>Obrigatório. Especifica a relação entre o documento atual e o documento vinculado</td>
+            </tr>
+            <tr class="bc-black">
+              <td>sizes</td>
+              <td>HeightxWidth <br>
+                any</td>
+              <td>Especifica o tamanho do recurso vinculado. Somente para rel="icon"</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>title</td>
+              <td></td>
+              <td>Define uma folha de estilo preferida ou alternativa</td>
+            </tr>
+            <tr class="bc-black">
+              <td>type</td>
+              <td>media_type</td>
+              <td>Especifica o tipo de mídia do documento vinculado</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="company">
+      <img src="../../image/logo/logotce.png" alt="">
+      <p>&copy; IFNMG - 2023</p>
+    </div>
+    <div class="topics">
+      <ul>
+        <li><a href="../about.html">Sobre nós</a></li>
+        <li><a href="../references.html">Referências</a></li>
+      </ul>
+    </div>
+    <div class="team">
+      <ul>
+        <li>Equipe</li>
+        <li>Davi Rodrigues</li>
+        <li>Douglas Badaró</li>
+        <li>Edson Júnior</li>
+        <li>George Lucas</li>
+        <li>Ítalo Augusto</li>
+        <li>Maria Theresa</li>
+        <li>Wanderson Rodrigues</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
