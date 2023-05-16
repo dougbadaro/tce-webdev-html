@@ -6,18 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
-  <title>TCE - Web Dev</title>
+  <title>Referências - Web Dev</title>
 
   <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
   <link rel="stylesheet" href="../../style/style-global.css">
   <link rel="stylesheet" href="../../style/style-tags.css">
-
-  <style>
-    .example {
-      margin-bottom: 50px;
-    }
-  </style>
 </head>
+<style>
+  .example {
+    margin-bottom: 50px;
+  }
+</style>
 
 <body>
   <header>
@@ -32,32 +31,37 @@
 
   <main>
     <div class="title-page">
-      <h1>Tag &lt;br&gt;</h1>
+      <h1>Tag &lt;body&gt;</h1>
       <div class="buttons">
-        <button><a href="../tags/body.html">Anterior</a></button>
-        <button><a href="../tags/button.html">Próximo</a></button>
+        <a href="../tags/base.html"><button>Anterior</button></a>
+        <a href="../tags/br.html"><button>Próximo</button></a>
       </div>
     </div>
     <div class="definition">
       <h3>Definição e uso</h3>
-      <p>A tag &lt;br&gt; insere uma única quebra de linha.</p>
-      <p>O elemento &lt;br&gt; pode ser útil para escrever endereços ou poemas.</p>
-      <p>a tag &lt;br&gt; é uma tag vazia, o que significa que não tem tag final.</p>
+      <p>A tag &lt;body&gt; define o corpo do documento.</p>
+
+      <p>O elemento &lt;body&gt; contém todo o conteúdo de um documento HTML, como cabeçalhos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.</p>
+        
+      <p>Nota: Só pode haver um elemento &lt;body&gt; em um documento HTML.</p>
     </div>
     <div class="example">
       <h3>Exemplo</h3>
       <div class="code">
-        <p>&lt;<span class="tag">p</span>&gt;<br>
+        <p>
+          <span>&lt;<span class="tag">html</span>&gt;</span><br><br>
+          <span>&lt;<span class="tag">head</span>&gt;</span><br>
+          <span style="padding-left: 30px;">&lt;<span class="tag">title</span>&gt;Título do documento&lt;/<span class="tag">title</span>&gt;</span><br>
+          <span>&lt;/<span class="tag">head</span>&gt;</span><br><br>
+
+          <span>&lt;<span class="tag">body</span>&gt;</span><br>
+          <span style="padding-left: 30px;">&lt;<span class="tag">h1</span>&gt;Título&lt;/<span class="tag">h1</span>&gt;</span><br>
+          <span style="padding-left: 30px;">&lt;<span class="tag">p</span>&gt;Parágrafo&lt;/<span class="tag">p</span>&gt;</span><br>
+          <span>&lt;/<span class="tag">body</span>&gt;</span><br><br>
+
+          <span>&lt;/<span class="tag">html</span>&gt;</span>
+          
         </p>
-        <div class="in-code">
-          <p>
-            Para forçar&lt;<span class="tag">br</span>&gt;<br>
-            quebras de linha&lt;<span class="tag">br</span>&gt;<br>
-            em um texto,&lt;<span class="tag">br</span>&gt;<br>
-            use o elemento br&lt;<span class="tag">br</span>&gt;<br>
-          </p>
-        </div>
-        <p>&lt;/<span class="tag">p</span>&gt;</p>
       </div>
     </div>
   </main>
