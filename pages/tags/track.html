@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
+    <title>TCE - Web Dev</title>
+
+
+
+
+    <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../style/style-global.css">
+    <link rel="stylesheet" href="../../style/style-tags.css">
+</head>
+<style>
+    .example {
+        margin-bottom: 50px;
+    }
+</style>
+
+
+
+
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../../image/logo/logotce.png" alt="Logo TCE - Web Dev">
+        </a>
+        <ul>
+            <li><a href="../about.html">Sobre nós</a></li>
+            <li><a href="../references.html">Referências</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="title-page">
+            <h1>Tag &lt;track&gt;</h1>
+            <div class="buttons">
+                <a href="../tags/optgroup.html"><button>Anterior</button></a>
+                <a href="../tags/span.html"><button>Próximo</button></a>
+            </div>
+        </div>
+        <div class="definition">
+            <h3>Definição e uso</h3>
+            <p>A tag &lt;track&gt; especifica trilhas de texto para elementos &lt;audio&gt; ou &lt;video&gt;.
+
+
+                Este elemento é usado para especificar legendas, arquivos de legenda ou outros arquivos contendo texto,
+                que devem estar visíveis quando a mídia estiver sendo reproduzida.
+
+
+                As trilhas são formatadas no formato WebVTT (arquivos .vtt). </p>
+        </div>
+        <div class="example">
+            <h3>Exemplo</h3>
+            <div class="code">
+                <p>&lt;<span class="tag">video</span> <span class="tag-attribute">width</span><span
+                        class="equal">=</span><span class="string">"320" </span><span
+                        class="tag-attribute">height</span><span class="equal">=</span><span class="string">"240"</span>
+                    <span class="tag-attribute">controls</span>&gt;<br>
+                    &lt;<span class="tag">source</span> <span class="tag-attribute">src</span><span
+                        class="equal">=</span><span class="string">"forrest_gump.mp4"</span> <span
+                        class="tag-attribute">type</span><span class="equal">=</span><span
+                        class="string">"video/mp4"</span>&gt;<br>
+                    &lt;<span class="tag">source</span> <span class="tag-attribute">src</span><span
+                        class="equal">=</span><span class="string">"forrest_gump.ogg"</span> <span
+                        class="tag-attribute">type</span><span class="equal">=</span><span
+                        class="string">"video/ogg"</span>&gt;<br>
+                    &lt;<span class="tag">track</span> <span class="tag-attribute">src</span><span
+                        class="equal">=</span><span class="string">"fgsubtitles_en.vtt"</span><span
+                        class="tag-attribute">kind</span><span class="equal">=</span><span
+                        class="string">"subtitles"</span> <span class="tag-attribute">srclang</span><span
+                        class="equal">=</span><span class="string">"en"</span>
+                    <span class="tag-attribute">label</span><span class="equal">=</span><span
+                        class="string">"English"</span>&gt;<br>
+                    &lt;<span class="tag">track</span> <span class="tag-attribute">src</span><span
+                        class="equal">=</span><span class="string">"fgsubtitles_no.vtt"</span><span
+                        class="tag-attribute">kind</span><span class="equal">=</span><span
+                        class="string">"subtitles"</span> <span class="tag-attribute">srclang</span><span
+                        class="equal">=</span><span class="string">"no"</span>
+                    <span class="tag-attribute">label</span><span class="equal">=</span><span
+                        class="string">"Norwegian"</span>&gt;
+                </p>
+                </video>
+            </div>
+        </div>
+        <div class="attribute">
+            <h3>Atributos</h3>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="tags-title" id="first">Atributo</th>
+                            <th class="tags-title" id="secondary">Value</th>
+                            <th class="tags-title" id="tdird">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bc-black">
+                            <td>default</td>
+                            <td>default</td>
+                            <td>
+                                Especifica que a faixa deve ser habilitada se as preferências do usuário não indicarem
+                                que outra faixa seria mais apropriada</td>
+                        </tr>
+                        <tr class="bc-purple">
+                            <td>kind</td>
+                            <td>captions<br>
+                                chapters<br>
+                                descriptions<br>
+                                metadata<br>
+                                subtitles</td>
+                            <td>Especifica o tipo de faixa de texto</td>
+                        </tr>
+                        <tr class="bc-black">
+                            <td>label</td>
+                            <td>text</td>
+                            <td>Especifica o título da faixa de texto</td>
+                        </tr>
+                        <tr class="bc-purple">
+                            <td>src</td>
+                            <td>URL</td>
+                            <td>Obrigatório. Especifica a URL do arquivo de trilha</td>
+                        </tr>
+                        <tr class="bc-black">
+                            <td>srclang</td>
+                            <td>language_code</td>
+                            <td>Especifica o idioma dos dados do texto da faixa (obrigatório se kind="legendas")</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="company">
+        <img src="../../image/logo/logotce.png" alt="">
+        <p>&copy; IFNMG - 2023</p>
+    </div>
+    <div class="topics">
+        <ul>
+            <li><a href="../about.html">Sobre nós</a></li>
+            <li><a href="../references.html">Referências</a></li>
+        </ul>
+    </div>
+    <div class="team">
+        <ul>
+            <li>Equipe</li>
+            <li>Davi Rodrigues</li>
+            <li>Douglas Badaró</li>
+            <li>Edson Júnior</li>
+            <li>George Lucas</li>
+            <li>Ítalo Augusto</li>
+            <li>Maria Theresa</li>
+            <li>Wanderson Rodrigues</li>
+        </ul>
+    </div>
+</footer>
+
+
+
+
+</html>
