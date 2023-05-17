@@ -74,11 +74,11 @@ main .table-tags .table thead {
   color: white;
 }
 
-main .table-tags .table .bc-black {
+main .table-tags .table tbody tr:nth-child(even) {
   background-color: #121214;
 }
 
-main .table-tags .table .bc-purple {
+main .table-tags .table tbody tr:nth-child(odd) {
   background-color: #18151f;
 }
 
