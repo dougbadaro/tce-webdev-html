@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/af4212dbbd.js" crossorigin="anonymous"></script>
+  <title>TCE - Web Dev</title>
+
+  <link rel="shortcut icon" href="../../image/logo/favicon-tce.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../style/style-global.css">
+  <link rel="stylesheet" href="../../style/style-tags.css">
+
+  <style>
+    .example {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html">
+      <img src="../../image/logo/logotce.png" alt="Logo TCE - Web Dev">
+    </a>
+    <ul>
+      <li><a href="../about.html">Sobre nós</a></li>
+      <li><a href="../references.html">Referências</a></li>
+    </ul>
+  </header>
+
+  <main>
+
+    <div class="title-page">
+      <h1>Tag &lt;textarea&gt;</h1>
+      <div class="buttons">
+        <a href="../tags/td.html"><button>Anterior</button></a>
+        <a href="../tags/th.html"><button>Próximo</button></a>
+      </div>
+    </div>
+    <div class="definition">
+      <h3>Definição e uso</h3>
+      <p>A tag &lt;textarea&gt; define um controle de entrada de texto de várias linhas.</p>
+      <p>O elemento &lt;textarea&gt; geralmente é usado em um formulário para coletar entradas do usuário, como
+        comentários ou revisões.</p>
+      <p>Uma área de texto pode conter um número ilimitado de caracteres e o texto é renderizado em uma fonte de largura
+        fixa.</p>
+      <p>O tamanho de uma área de texto é especificado pelos atributos cols e rows(ou com CSS).</p>
+      <p>O atributo name é necessário para fazer referência aos dados do formulário após o envio do formulário (se você
+        omitir o atributo name, nenhum dado da área de texto será enviado).</p>
+      <p>O atributo id é necessário para associar a área de texto a um rótulo.</p>
+    </div>
+    <div class="example">
+      <h3>Exemplo</h3>
+      <div class="code">
+        <p>&lt;<span class="tag">label</span> <span class="tag-attribute">for</span>=</span><span
+            class="string">"w3revisao"</span>Revisão W3Schools&lt;/<span class="tag">label</span>&gt;
+        </p><br>
+        <div class="tag">
+          <p>
+            &lt;<span class="tag">textarea</span> <span class="tag-attribute">id</span><span class="equal">=</span><span
+              class="string">"w3revisao"</span> <span class="tag-attribute">name</span><span class="equal">=</span><span
+              class="string">"w3revisao"</span> <span class="tag-attribute">rows</span><span class="equal">=</span><span
+              class="string">"4"</span> <span class="tag-attribute">cols</span><span class="equal">=</span><span
+              class="string">"50"</span><br>
+            Em w3schools.com você aprenderá como fazer um site. Eles oferecem tutoriais gratuitos em todas as
+            tecnologias de desenvolvimento web.
+          </p>
+        </div>
+        <p>&lt;/<span class="tag">textarea</span>&gt;</p>
+      </div>
+    </div>
+    <div class="attribute">
+      <h3>Atributos</h3>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th class="tags-title" id="first">Atributo</th>
+              <th class="tags-title" id="secondary">Value</th>
+              <th class="tags-title" id="third">Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bc-purple">
+              <td>autofocus</td>
+              <td>autofocus</td>
+              <td>Especifica que uma área de texto deve obter foco automaticamente quando a página for carregada</td>
+            </tr>
+            <tr class="bc-black">
+              <td>cols</td>
+              <td>action</td>
+              <td>Especifica a largura visível de uma área de texto</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>dirname</td>
+              <td>textareaname.dir</td>
+              <td>Especifica que a direção do texto da área de texto será enviada</td>
+            </tr>
+            <tr class="bc-black">
+              <td>disabled</td>
+              <td>disabled</td>
+              <td>Especifica que uma área de texto deve ser desativada</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>form</td>
+              <td>form.id</td>
+              <td>Especifica a qual formulário a área de texto pertence</td>
+            </tr>
+            <tr class="bc-black">
+              <td>maxlength</td>
+              <td>number</td>
+              <td>Especifica o número máximo de caracteres permitidos na área de texto</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>name</td>
+              <td>text</td>
+              <td>Especifica um nome para uma área de texto</td>
+            </tr>
+            <tr class="bc-black">
+              <td>placeholder</td>
+              <td>text</td>
+              <td>Especifica uma dica curta que descreve o valor esperado de uma área de texto</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>readonly</td>
+              <td>readonly</td>
+              <td>Especifica que uma área de texto deve ser somente leitura</td>
+            </tr>
+            <tr class="bc-black">
+              <td>required</td>
+              <td>required</td>
+              <td>Especifica que uma área de texto é obrigatória ser preenchida</td>
+            </tr>
+            <tr class="bc-purple">
+              <td>rows</td>
+              <td>number</td>
+              <td>Especifica o número visível de linhas em uma área de texto</td>
+            </tr>
+            <tr class="bc-black">
+              <td>wrap</td>
+              <td>hard<br>
+                soft</td>
+              <td>Especifica como o texto em uma área de texto deve ser quebrado quando enviado em um formulário</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <div class="company">
+      <img src="../../image/logo/logotce.png" alt="">
+      <p>&copy; IFNMG - 2023</p>
+    </div>
+    <div class="topics">
+      <ul>
+        <li><a href="../about.html">Sobre nós</a></li>
+        <li><a href="../references.html">Referências</a></li>
+      </ul>
+    </div>
+    <div class="team">
+      <ul>
+        <li>Equipe</li>
+        <li>Davi Rodrigues</li>
+        <li>Douglas Badaró</li>
+        <li>Edson Júnior</li>
+        <li>George Lucas</li>
+        <li>Ítalo Augusto</li>
+        <li>Maria Theresa</li>
+        <li>Wanderson Rodrigues</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
